@@ -14,7 +14,7 @@ public class MainController {
 
     @RequestMapping(value = "/",  method = RequestMethod.GET)
     public String hello(Model model) {
-        model.addAttribute("name", "WOW");
+        model.addAttribute("name", "Potato");
         return "index";
     }
 }
